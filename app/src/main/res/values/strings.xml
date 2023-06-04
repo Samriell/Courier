@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Courier</string>
+    <string name="main_button_text">click me</string>
+    <string name="main_button_clicked">hey you</string>
+    <string name="company">Компания</string>
+    <string name="package_type">Тип посылки</string>
+    <string name="source_address">Адрес отправления</string>
+    <string name="destination_address">Адрес назначения</string>
+    <string name="price">Цена</string>
+    <string name="clean">Очистить</string>
+    <string name="ok">Итог</string>
+</resources>

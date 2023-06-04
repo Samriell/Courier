@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Courier">
+
+
+    <TextView
+        android:id="@+id/mainTV"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/company"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/package_type"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/source_address"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/destination_address"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/price"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mainLV"
+        android:layout_width="match_parent"
+        android:layout_height="419dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clean_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="?attr/colorButtonNormal"
+            android:fontFamily="sans-serif"
+            android:text="@string/clean"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/positiveButtonText"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/ok_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="?attr/colorButtonNormal"
+            android:fontFamily="sans-serif"
+            android:text="@string/ok"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/positiveButtonText"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</LinearLayout>
